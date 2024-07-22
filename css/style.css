@@ -1,0 +1,145 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding-top: 100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+#content {
+    min-height: 600px;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/* Ensures that when navigating to a particular section of a page, the section does not get lost behind the header */
+#shoes:before,
+#shoes:before,
+#shoes:before {
+    display: block;
+    content: " ";
+    margin-top: -85px;
+    height: 85px;
+    visibility: hidden;
+}
+
+#login-panel .panel-footer {
+    font-weight: normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color:#20263e;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+#settings-container {
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+
+    footer {
+        text-align: left;
+    }
+}
+
+.remove_item_link {
+    color: #0000ff;
+}
+
+#banner_video {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#background_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #000000; /* Black color */
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    padding: 12px 24px; /* Padding for better size */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-primary:hover {
+    background-color: #333333; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn-primary:active {
+    background-color: #1a1a1a; /* Even darker shade when active */
+    transform: translateY(1px); /* Pressed down effect */
+}
+
+.btn-primary:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25); /* Focus shadow */
+}
+
